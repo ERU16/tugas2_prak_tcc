@@ -1,0 +1,22 @@
+GET http://localhost:5000/users
+
+###
+POST http://localhost:5000/add-users
+Content-Type: application/json
+
+{
+    "name": "wow",
+    "pesan": "aku mau makan ayam geprek dong"
+}
+
+###
+PUT http://localhost:5000/users/2
+Content-Type: application/json
+
+{
+    "name": "epul",
+    "pesan": "gajadi makan, udah kenyang sama harapan yang tidak pernah terwujud"
+}
+
+###
+DELETE http://localhost:5000/users/9
